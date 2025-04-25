@@ -1,0 +1,65 @@
+# .NET build artifacts
+bin/
+obj/
+out/
+
+# Rider specific
+.idea/
+*.sln.iml
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Rider caches
+.idea/
+.idea_modules/
+.idea/*
+
+# Optional: ignore local settings/secrets
+appsettings.Development.json
+appsettings.Local.json
+
+# Docker artifacts (if you use containers)
+*.pid
+*.seed
+docker-compose.override.yml
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+
+# NCrunch
+*.ncrunch*
+_NCrunch_*
+.ncrunchproject
+
+# VSCode folders (if switching editors sometimes)
+.vscode/
+
+# NuGet
+*.nupkg
+# NuGet Packages folder (optional)
+packages/
+
+# JetBrains Rider generated files
+.idea/
+*.sln.iml
+
