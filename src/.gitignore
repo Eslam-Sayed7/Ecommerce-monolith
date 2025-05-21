@@ -3,8 +3,9 @@ bin/
 obj/
 out/
 
-# Rider specific
-.idea/
+# Rider User-specific
+.idea
+../.idea/*
 *.sln.iml
 
 # User-specific files
