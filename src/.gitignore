@@ -4,10 +4,11 @@ obj/
 out/
 
 # Rider User-specific
-.idea
-../.idea/*
+.idea/
+../.idea/
+# ../Modules/
 *.sln.iml
-
+../obj/*
 # User-specific files
 *.user
 *.userosscache
