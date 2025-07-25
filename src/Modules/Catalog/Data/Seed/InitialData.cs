@@ -4,19 +4,19 @@ public static class InitialData
 {
     public static IEnumerable<Product> Products => new List<Product>
     {
-        Product.Create(new Guid("d1b2c3f4-5e6f-7a8b-9c0d-e1f2g3h4i5j6"), 
+        Product.Create(new Guid("5334c996-8457-4cf0-815c-ed2b77c4ff61"), 
                         "Apple iPhone 14", 
                        new List<string> { "Smartphones", "Electronics" }, 
                        "Latest model of Apple iPhone with advanced features.", 
                        999.99m, 
                        "iphone14.jpg"),
-        Product.Create(new Guid("a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6"), 
+        Product.Create(new Guid("c67d6323-e8b1-4bdf-9a75-b0d0d2e7e914"), 
                         "Samsung Galaxy S23",
                           new List<string> { "Smartphones", "Electronics" },
                         "Latest model of Samsung Galaxy with advanced features.",
                         800.00m,
                         "galaxys23.jpg"),
-        Product.Create(new Guid("f1e2d3c4-b5a6-7b8c-9d0e-f1g2h3i4j5k6"),
+        Product.Create(new Guid("4f136e9f-ff8c-4c1f-9a33-d12f689bdab8"),
                         "Google Pixel 7",
                         new List<string> { "Smartphones", "Electronics" },
                         "Latest model of Google Pixel with advanced features.",
